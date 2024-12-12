@@ -1,7 +1,6 @@
 import { defineConfig } from 'vite'
 import laravel, { refreshPaths } from 'laravel-vite-plugin'
 import { viteStaticCopy } from "vite-plugin-static-copy";
-
 export default defineConfig({
     plugins: [
         laravel({
